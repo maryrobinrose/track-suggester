@@ -17,64 +17,30 @@
 
     <form id="quiz">
       <p class="question">1. I want to learn a language that is most in demand in the job market today.</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="trueFalse" value="true" checked>
+            True
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="trueFalse" value="false">
+            False
+          </label>
+        </div>
 
-        <ul>
-          <input class="answer" type="radio" name="q1" value="cSharp">
-          <label id="trueAnswer">True</label>
-          <br>
-         <input class="answer" type="radio" name="q1" value="0">
-          <label>False</label>
-          <br>
-        </ul>
 
-
-      <p class="question">2. I like the idea of working for a large company.</p>
-
-	    	<ul>
-	    	  <input class="answer" type="radio" name="q1" value="cSharp">
-	        <label id="trueAnswer">True</label>
-	    	  <br>
-	       <input class="answer" type="radio" name="q1" value="0">
-	        <label>False</label>
-	        <br>
-        </ul>
-
-      <p class="question">3. I am interested in game development.</p>
-
-        <ul>
-          <input class="answer" type="radio" name="q1" value="cSharp">
-          <label id="trueAnswer">True</label>
-          <br>
-         <input class="answer" type="radio" name="q1" value="0">
-          <label>False</label>
-          <br>
-        </ul>
-
-      <p class="question">4. I would like to build apps on the Microsoft platform.</p>
-
-        <ul>
-          <input class="answer" type="radio" name="q1" value="cSharp">
-          <label id="trueAnswer">True</label>
-          <br>
-         <input class="answer" type="radio" name="q1" value="0">
-          <label>False</label>
-          <br>
-        </ul>
-
-      <p class="question">5. I am interested in creating virtual reality experiences.</p>
-
-        <ul>
-          <input class="answer" type="radio" name="q1" value="cSharp">
-          <label id="trueAnswer">True</label>
-          <br>
-         <input class="answer" type="radio" name="q1" value="0">
-          <label>False</label>
-          <br>
-        </ul>
 
     <button type="submit" class="btn">Submit</button>
 
-    <div id="results"></div>
+    <div class="results">
+        <h2>Your Language</h2>
+        <p>Thank you, <span class="name"></span>!</p>
+        <p><strong>Name: </strong><span class="name"></span></p>
+        <p><strong>Address: </strong><span class="address"></span></p>
+        <p><strong>Your product: </strong><span class="product"></span></p>
+      </div>
 
   </div>
 
