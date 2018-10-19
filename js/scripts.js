@@ -1,8 +1,12 @@
 $(document).ready(function(){
-  $("#quiz").submit(function(event){
-    event.preventDefault();
-    $(".results").show();
+  $("form#quiz").submit(function(event){
+    $("#results").show();
     var question = $("input:radio[name=q1]:checked").val();
+
+    $("#track").show()
+
+    event.preventDefault();
+
 
   });
 });
