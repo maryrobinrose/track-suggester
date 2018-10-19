@@ -8,8 +8,27 @@
     <title>Track Suggester</title>
   </head>
   <body>
+  <div class="container">
     <h1>What Programming Language Should I Learn?</h1>
-    <h3>Take this short quiz to figure out which track is best for you!</h3>
+    <h2>Take this short quiz to figure out which track is best for you!</h2>
+    <form id="quiz">
+      <p class="question">1. I want to learn a language that is most in demand in the job market today.</p>
+
+      	    	<ul>
+      	    	<input class="answer" type="radio" name="q1" value="1">
+      	        <label id="trueAnswer">True</label>
+      	    	<br>
+      	        <input class="answer" type="radio" name="q1" value="0">
+      	        <label>False</label>
+      	        <br>
+      	        
+          		</ul>
+
+    <button type="submit" class="btn">Submit</button>
+
+    <div id="results"></div>
+
+  </div>
 
   </body>
 </html>
