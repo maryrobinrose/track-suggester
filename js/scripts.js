@@ -7,7 +7,7 @@ $(document).ready(function(){
     var question4 = $("input:radio[name=four]:checked").val();
     var question5 = $("input:radio[name=five]:checked").val();
 
-    if (questionOne === true && questionTwo === true && questionThree === true && questionFour === true && questionFive === true) {
+    if (question1 === true) {
       $("#trackOne").show();
       $("#trackTwo").hide();
       $("#trackThree").hide();
