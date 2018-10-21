@@ -9,8 +9,13 @@ $(document).ready(function(){
 
     if (one === "true" && two === "true" && three === "true"  && four === "true" && five === "true") {
       $("#trackOne").show();
-
-    }
+  }
+  else if (one != "true" && two != "true" && three != "true"  && four != "true" && five != "true") {
+    $("#trackTwo").show();
+  }
+  else {
+    $("#trackThree").show();
+  }
 
 
     // } else if (questionOne === false && questionTwo === false && questionThree === false && questionFour === false && questionFive === false);
