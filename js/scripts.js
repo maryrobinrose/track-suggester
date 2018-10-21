@@ -7,10 +7,10 @@ $(document).ready(function(){
     var questionFour = $("input:radio[name=four]:checked").val();
     var questionFive = $("input:radio[name=five]:checked").val();
 
-    if (questionOne === true && question === true) {
-      $("#track").show()
-    }
+    if (questionOne === true && questionTwo === true) {
       $("#trackOne").show()
+    }
+      
 
 
 
