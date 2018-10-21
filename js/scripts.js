@@ -6,7 +6,10 @@ $(document).ready(function(){
     var question = $("input:radio[name=three]:checked").val();
     var question = $("input:radio[name=four]:checked").val();
     var question = $("input:radio[name=five]:checked").val();
+
+    if 
     $("#track").show()
+
 
 
     event.preventDefault();
