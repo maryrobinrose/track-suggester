@@ -10,10 +10,14 @@ $(document).ready(function(){
     if (questionOne === true && questionTwo === true && questionThree === true && questionFour === true && questionFive === true) {
       $("#trackOne").show();
       $("#trackTwo").hide();
-      $("#trackThree".hide();
-    }
+      $("#trackThree").hide();
+    } else if (questionOne === false && questionTwo === false && questionThree === false && questionFour === false && questionFive === false);
+      $("#trackTwo").show();
+      $("#trackOne").hide();
+      $("#trackThree").hide();
 
-
+      else
+        $("#trackThree").show();
 
 
     event.preventDefault();
