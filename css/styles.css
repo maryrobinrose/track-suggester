@@ -10,14 +10,18 @@
   /* display: block; */
 }
 
-#resultsOne {
+#trackOne {
   display: none;
 }
 
-#resultsTwo {
+#trackTwo {
   display: none;
 }
 
-#resultsThree {
+#trackThree {
   display: none;
+}
+
+.well {
+  background-color: lightsalmon;
 }
